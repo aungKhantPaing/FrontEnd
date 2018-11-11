@@ -2,19 +2,61 @@
 <html lang="en">
 <head>
     <title>index</title>
+    <link rel="icon" href="library/layers.ico">
+    
+    <style>
+        html,body {
+            margin: 0;
+        }
+
+        h1 {
+            color:rgb(8, 145, 138);
+        }
+
+        .header {
+            position: fixed;
+            width: 50%;
+            border-radius: 20px;
+            background: rgba(253, 253, 253, 0.462);
+            padding: 8px;
+            text-align: center;
+        }
+
+        .video {
+            position: fixed;
+            width: 100%;
+        }
+
+        .content {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(253, 253, 253, 0.462);
+            padding: 8px;
+        }
+    </style>
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="tour-packages.html">Tour Packages</a>
-    <a href="services.html">Services</a>
+    <video class="video" src="library/travel.mp4" loop muted autoplay="autoplay"></video>
+
+    <div class="header">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="tour-packages.html">Tour Packages</a>
+            <a href="services.html">Services</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Home</h1>
+    
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, tempore neque hic earum dicta blanditiis eaque molestiae numquam? Magni assumenda asperiores inventore nobis facere deleniti temporibus aut quo explicabo est?
+        </p>
+    </div>
     
 
-    <h1>Home</h1>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, tempore neque hic earum dicta blanditiis eaque molestiae numquam? Magni assumenda asperiores inventore nobis facere deleniti temporibus aut quo explicabo est?</p>
-
-    <img src="library/stream-building.jpg" alt="">
 </body>
 </html>

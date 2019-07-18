@@ -1,0 +1,44 @@
+.hero {
+    height: 86%;
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url('images/bg-milkeyway.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    
+    h1 {
+        font-size: 3em;
+        color: aliceblue;
+        letter-spacing: 1em;
+        padding-left: 1em;
+
+        animation-duration: 3s;
+    }
+
+    h5 {
+        color: gainsboro;
+        letter-spacing: 0.5em;
+        padding-left: 0.5em;
+
+        
+    }
+
+    a {
+        position: absolute;
+        display: block;
+        left: 47.3%;
+        bottom: 10px;
+        padding-left: 0.3em;
+
+        letter-spacing: 0.3em;
+        font-weight: lighter;
+        color: #555;
+
+        &:hover {
+            color: $soft-landing-green;
+            text-decoration: none;
+        }
+    }
+}

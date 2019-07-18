@@ -1,0 +1,150 @@
+.contents-index {
+    @extend %smooth-p;
+
+    margin: 90px 0px;
+
+    .article {
+        
+        .article-img {
+            padding-top: 22px;
+            padding-bottom: 22px;
+            width: 100%;
+        }
+    
+        .article-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+    
+            &:hover {
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+    
+        .btn-article {
+            margin-top: 26px;
+            padding: 13px 22px;
+    
+            border: 1px solid #777;
+            border-radius: 50px;
+            color: #777;
+            background: transparent;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+    
+            &:hover {
+                color: white;
+                border-color: $primary-color;
+                background-color: $primary-color;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.contents-about {
+    @extend %smooth-p;
+
+    margin: 80px 0px;
+
+    .content-gp {
+        .content {
+            margin: 22px 0px;
+        }
+    }
+}
+
+.contents-gallery {
+    @extend %smooth-p;
+
+    margin: 50px 0px;
+    
+    .image-gp {
+        padding: 40px 0px;
+
+        .gallery-image {
+            padding: 0;
+            top: 0px;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                top: -5px;
+                    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+            }
+        }
+    }
+}
+
+
+.contents-contact {
+    @extend %smooth-p;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    .form {
+        $box-spacing: 15px;
+        
+        margin-top: 30px;
+        padding: 0;
+
+
+        .form-inputs {
+            padding-right: 15px - $box-spacing;
+            
+            .col-input {
+                padding-right: $box-spacing;
+                padding-left: 0;
+            }
+        }
+
+        input {
+            padding: 20px 15px;
+        }
+
+        input, textarea {
+            margin-top: $box-spacing;
+
+            &:hover {
+                border-color: black;
+            }
+
+            &:focus {
+                border-color: black;
+                box-shadow: none;
+                -webkit-box-shadow: none;
+            }
+        }
+
+        .form-submit-btn {
+            padding: 13px 0px;
+            width: 100%;
+    
+            border: none;
+            border-radius: 50px;
+            color: white;
+            background: $primary-color;
+            font-size: 14px;
+            font-weight: bold;
+            
+            &:hover {
+                background-color: #555;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    
+}
+
+.contents-single-post {
+    @extend %smooth-p;
+
+    margin: 60px 0;
+}

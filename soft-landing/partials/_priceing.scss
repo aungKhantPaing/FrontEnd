@@ -1,0 +1,77 @@
+.priceing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(250, 250, 250);
+
+    h1 {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: lighter;
+    }
+
+    .priceing-plans {
+
+        &:last-child .priceing-plan{
+            border-right: none;   
+        }
+
+        .priceing-plan {
+            margin: 0;
+            padding: 20px 40px;
+    
+            background: white;
+            border-right: solid 1px lighten($color: lightgray, $amount: 8);
+    
+            h3 {
+                font-size: 2em;
+                font-weight: lighter;
+            }
+    
+            .priceing-list {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin: 0;
+    
+                border-top: solid 1px lighten($color: lightgray, $amount: 8);
+                border-bottom: solid 1px lighten($color: lightgray, $amount: 8);
+                font-size: 16px;
+    
+                li {
+                    line-height: 30px;
+                    color: #757575;
+                }
+            }
+    
+            .btn-section {
+                margin-top: 20px;
+                margin-bottom: 20px;
+    
+                label {
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+        
+                .btn-priceing {
+                    padding: 12px 28px;
+        
+                    border-radius: 80px;
+                    border: $primary-color;
+                    background-color: $primary-color;
+                    color: white;
+        
+                    font-size: 16px;
+        
+                    &:hover {
+                        border: #555;
+                        background: #555;
+                    }
+        
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }    
+}

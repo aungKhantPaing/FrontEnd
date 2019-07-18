@@ -1,0 +1,27 @@
+.banner-about {
+    @extend %background-cover;
+
+    background: url('images/about-bg.jpg');
+    padding: 150px 0px;
+}
+
+.banner-contact {
+    @extend %background-cover;
+
+    background: url('images/contact-bg.jpg');
+    padding: 150px 0px;
+}
+
+.banner-gallery {
+    @extend %background-cover;
+
+    background: url('images/gallery-bg.jpg');
+    padding: 150px 0px;
+}
+
+.banner-single-post {
+    @extend %background-cover;
+
+    background: url('images/single-post-bg.jpg');
+    padding: 220px 0px;
+}

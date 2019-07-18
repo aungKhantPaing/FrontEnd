@@ -1,0 +1,215 @@
+html, body, :hover {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease; }
+  html p, body p, :hover p {
+    color: #777;
+    line-height: 26px; }
+
+img {
+  width: 100%; }
+
+nav {
+  padding: 20px;
+  margin-bottom: 0 !important;
+  background: white !important; }
+  nav .navbar-toggle {
+    border: none;
+    background: none; }
+    nav .navbar-toggle:focus {
+      background: none !important; }
+    nav .navbar-toggle .icon-bar {
+      background: #29ca8e !important; }
+  nav .navbar-brand {
+    color: black !important;
+    font-size: 25px; }
+  nav .navbar-links, nav .navbar-mail {
+    padding-left: 40px;
+    font-size: 16px; }
+    nav .navbar-links a:hover, nav .navbar-mail a:hover {
+      color: #29ca8e !important;
+      text-decoration: none; }
+    nav .navbar-links a:focus, nav .navbar-mail a:focus {
+      text-decoration: none; }
+
+.home {
+  background-image: url("images/home-bg.jpg");
+  background-size: cover;
+  padding: 250px 0;
+  text-align: center; }
+  .home .home-group h3 {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: white; }
+  .home .home-group h1 {
+    padding: 0px 20px;
+    line-height: 1.5em;
+    color: white; }
+  .home .home-group .search-box {
+    padding: 20px 70px; }
+    .home .home-group .search-box .search-box-input {
+      right: -20px;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      height: 50px; }
+    .home .home-group .search-box .btn-search-box {
+      left: -20px;
+      border: #29ca8e;
+      border-radius: 50px;
+      height: 50px;
+      background-color: #29ca8e;
+      color: white; }
+      .home .home-group .search-box .btn-search-box:hover {
+        border: #555;
+        background: #555; }
+      .home .home-group .search-box .btn-search-box:focus {
+        outline: none; }
+
+.features {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .features h1 {
+    font-size: 3em; }
+  .features h2 {
+    font-size: 2em; }
+  .features h3 {
+    font-size: 18px;
+    color: #29ca8e; }
+
+.about .team-info {
+  background: #efefef;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .about .team-info h1 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 3em; }
+  .about .team-info .member-info {
+    padding-left: 0;
+    padding-right: 0;
+    background: white; }
+    .about .team-info .member-info .member-info-text {
+      padding: 40px; }
+      .about .team-info .member-info .member-info-text h2 {
+        font-size: 2em; }
+      .about .team-info .member-info .member-info-text h3 {
+        font-size: 18px; }
+      .about .team-info .member-info .member-info-text p {
+        color: #757575;
+        line-height: 24px; }
+
+.about .feedback-section {
+  background: black;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .about .feedback-section .feedback-text h1 {
+    color: white;
+    font-size: 3em; }
+  .about .feedback-section .feedback-text p {
+    color: #d9d9d9;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300; }
+  .about .feedback-section .feedback-text .profile {
+    margin-top: 100px; }
+    .about .feedback-section .feedback-text .profile img {
+      width: 10%;
+      border-radius: 100%; }
+    .about .feedback-section .feedback-text .profile label {
+      color: white;
+      font-size: 18px; }
+
+.priceing {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #fafafa; }
+  .priceing h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter; }
+  .priceing .priceing-plans:last-child .priceing-plan {
+    border-right: none; }
+  .priceing .priceing-plans .priceing-plan {
+    margin: 0;
+    padding: 20px 40px;
+    background: white;
+    border-right: solid 1px #e7e7e7; }
+    .priceing .priceing-plans .priceing-plan h3 {
+      font-size: 2em;
+      font-weight: lighter; }
+    .priceing .priceing-plans .priceing-plan .priceing-list {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0;
+      border-top: solid 1px #e7e7e7;
+      border-bottom: solid 1px #e7e7e7;
+      font-size: 16px; }
+      .priceing .priceing-plans .priceing-plan .priceing-list li {
+        line-height: 30px;
+        color: #757575; }
+    .priceing .priceing-plans .priceing-plan .btn-section {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .priceing .priceing-plans .priceing-plan .btn-section label {
+        font-size: 20px;
+        font-weight: normal; }
+      .priceing .priceing-plans .priceing-plan .btn-section .btn-priceing {
+        padding: 12px 28px;
+        border-radius: 80px;
+        border: #29ca8e;
+        background-color: #29ca8e;
+        color: white;
+        font-size: 16px; }
+        .priceing .priceing-plans .priceing-plan .btn-section .btn-priceing:hover {
+          border: #555;
+          background: #555; }
+        .priceing .priceing-plans .priceing-plan .btn-section .btn-priceing:focus {
+          outline: none; }
+
+.contact {
+  padding: 100px 100px; }
+  .contact h1 {
+    margin-bottom: 2em;
+    text-align: center;
+    font-weight: lighter; }
+  .contact .contact-form .contact-form-input {
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 3px #f0f0f0;
+    border-left: none; }
+    .contact .contact-form .contact-form-input:focus {
+      outline: none;
+      border-bottom: solid 3px black; }
+  .contact .contact-form .btn-form {
+    margin-top: 10px;
+    padding: 12px 28px;
+    border-radius: 80px;
+    border: #555;
+    background: #555;
+    color: white;
+    font-size: 16px; }
+    .contact .contact-form .btn-form:hover {
+      border: #29ca8e;
+      background: #29ca8e; }
+    .contact .contact-form .btn-form:focus {
+      outline: none; }
+
+.footer {
+  padding: 80px; }
+  .footer p, .footer ul {
+    text-align: center; }
+
+.w100 {
+  width: 100%; }

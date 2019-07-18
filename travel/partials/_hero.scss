@@ -1,0 +1,48 @@
+.hero {
+    height: 100%;
+    width: auto;
+
+    background-image: url('lib/img/blue-hex.jpg');
+    background-position: center;
+    background-size: cover;
+
+    .hero-container {
+        padding-left: 0;
+    }
+
+    .hero-text {
+        padding: 80px 0px;
+        padding-right: 65%;
+        color: white;
+
+        h1 {
+            font-size: 64px;
+        }
+
+        .about-us {
+            display: block;
+            margin-bottom: 4px;
+            color: white;
+            font-size: 25px;
+
+            &:hover {
+                text-decoration: none;
+                border-bottom: solid 2px $aiesec-blue;
+            }
+        }
+        
+        p {
+            font-size: 16px
+        }
+
+        .btn-getstarted {
+            color: white;
+            border-color: $aiesec-blue;
+            background-color: $aiesec-blue;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}

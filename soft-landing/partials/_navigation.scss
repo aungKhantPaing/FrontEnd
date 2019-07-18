@@ -1,0 +1,38 @@
+nav {
+    padding: 20px;
+    margin-bottom: 0 !important;
+    background: white !important;
+    
+    .navbar-toggle {
+        border: none;
+        background: none;
+        
+        &:focus {
+            background: none !important;
+        }
+
+        .icon-bar {
+            background: $primary-color !important;
+        }
+    }
+
+    .navbar-brand {
+        color: black !important;
+        font-size: 25px;
+    }
+
+    .navbar-links, .navbar-mail {
+        padding-left: 40px;
+        font-size: 16px;
+        
+        a {
+            &:hover {
+                color: $primary-color !important;
+                text-decoration: none;
+            }
+            &:focus {
+                text-decoration: none;
+            }
+        }
+    }
+}

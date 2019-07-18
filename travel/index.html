@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+
+    <title>Index</title>
+</head>
+<body>
+    <section class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 logo">
+                    <img src="lib/img/aiesec-logo-white-blue.svg">
+                </div>
+    
+                <div class="col-md-6 nav-links">
+                    <ul class="list-inline">
+                        <li><a href="#">For Organizations</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#" class="btn btn-default">Search</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Live The Experience</h1>
+                <a href="#" class="about-us">About Us</a>
+                <p>
+                    Activate your leadership by going on an experience with AIESEC. We provide you with the opportunity to live a shared responsibility for the world and equip you with the tools to shape it for a better future.
+                </p>
+    
+                <a href="#" class="btn btn-default btn-getstarted" id="btn-getstarted">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contents" id="contents">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center">How will you choose to shape your journey?</h3>
+
+                <div class="tour-packages">
+    
+                    <div class="col-md-5 tour-package orange-package">
+                        <img src="lib/img/gv-logo.png" class="img-responsive">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque doloribus magni, voluptatum mollitia modi magnam impedit similique aspernatur tenetur quis maiores, ut id ipsam veritatis doloremque tempora hic rerum!
+                        </p>
+        
+                        <h5>Duration</h5>
+                        <p>6 - 12 weeks</p>
+        
+                        <h5>Organization</h5>
+                        <p>NGO</p>
+        
+                        <h5>Compensation</h5>
+                        <p>No</p>
+        
+                        <a href="#">Apply Now</a>
+        
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    <div class="col-md-5 col-md-offset-2 tour-package blue-package">
+                        <img src="lib/img/gt-logo.png" class="img-responsive">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque doloribus magni, voluptatum mollitia modi magnam impedit similique aspernatur tenetur quis maiores, ut id ipsam veritatis doloremque tempora hic rerum!
+                        </p>
+        
+                        <h5>Duration</h5>
+                        <p>6 - 12 weeks</p>
+        
+                        <h5>Organization</h5>
+                        <p>NGO</p>
+        
+                        <h5>Compensation</h5>
+                        <p>No</p>
+        
+                        <a href="#">Apply Now</a>
+        
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="col-md-4">
+            <h5>AIESEC</h5>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam amet impedit molestias veniam obcaecati voluptas eveniet praesentium minima, aliquid est. Dignissimos saepe tempora repudiandae vel eum incidunt iusto voluptatum autem!
+            </p>
+        </div>
+
+        <div class="col-md-2">
+            <h5>About</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Annual Report</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <h5>Youth</h5>
+            <ul>
+                <li><a href="#">Global Volunteer</a></li>
+                <li><a href="#">Global Talent</a></li>
+                <li><a href="#">Global Entrepreneur</a></li>
+                <li><a href="#">Youth 4 Global Goals</a></li>
+                <li><a href="#">YouthSpeak</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <h5>Organizations</h5>
+            <ul>
+                <li><a href="#">Partner with us</a></li>
+                <li><a href="#">Global Volunteer</a></li>
+                <li><a href="#">Global Talent</a></li>
+                <li><a href="#">Global Entrepreneur</a></li>
+                <li><a href="#">Premium Organization</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+            <h5>Membership</h5>
+            <ul>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Find your country!</a></li>
+                <li><a href="#">Alumni</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script>
+        $("#btn-getstarted").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#contents").offset().top
+            }, 1500);
+        });
+    </script>
+</body>
+</html>

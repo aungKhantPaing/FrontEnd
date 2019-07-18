@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="images/telescope.ico">
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <title>Stars</title>
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand brand-name" href="index.html">POLARIS</a>
+            </div>
+
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Stars</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="animated fadeIn delay-1s">STARS</h1>
+            <h5 class="animated fadeInUp delay-2s">Let's Shine</h5>
+            <a class="animated fadeInUp delay-3s" href="#contents-session">more</a>
+        </div>
+    </section>
+
+    <!-- Contents -->
+    <section class="contents" id="contents-session">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-4 col-sm-4 col-xs-12" data-aos="fade-down" data-aos-delay="500" data-aos-duration="5000">
+                    <a href="#">
+                        <img class="img-responsive" src="images/star-rigel.jpg">
+                        <div class="img-label">
+                            Rigel
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="content col-md-4 col-sm-4 col-xs-12" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="5000">
+                    <a href="#">
+                        <img class="img-responsive" src="images/star-sirius.jpg">
+                        <div class="img-label">
+                            Sirius
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="content col-md-4 col-sm-4 col-xs-12" data-aos="fade-down" data-aos-delay="1500" data-aos-duration="5000">
+                    <a href="#">
+                        <img class="img-responsive" src="images/star-betelgeuse.jpg">
+                        <div class="img-label">
+                            Betelgeuse
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Copyright © 2018 Company Name - Design: <a href="#">Tooplate</a>
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="list-inline">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Script -->
+    <script>
+        $(function(){
+            //Preloader
+            $(window).on("load", function() {
+                $('.spinner-wrapper').fadeOut('fast', function() {
+                    $(this).remove();
+                });
+            });
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.contents {
+    .tour-packages {
+        h3 {
+            text-align: center;
+            font-style: italic;
+        }
+
+        .tour-package {
+            margin-bottom: 50px;
+            padding: 20px 10px;
+            text-align: center;
+            border-radius: 2px;
+            box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+            transition: box-shadow .6s,-webkit-box-shadow .6s;
+
+            img {
+                width: 240px;
+                height: 80px;
+                display: inline;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            h5 {
+                font-size: 12px;
+                text-transform: uppercase;
+                color: gray;
+            }
+
+            a {
+                display: block;
+                color: gray;
+                font-size: 18px;
+            }
+
+            &:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+            }
+        }
+        
+        .orange-package {
+            border-top: solid 5px $aiesec-red;
+            
+        }
+        
+        .blue-package {
+            border-top: solid 5px $aiesec-dark-teal;
+        }
+        
+        .green-package {
+            border-top: solid 5px $aiesec-teal;
+        }
+        
+    }
+
+}

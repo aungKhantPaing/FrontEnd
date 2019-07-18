@@ -1,0 +1,127 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Lato';
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+section {
+  position: relative;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  float: left;
+  min-height: 100%;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 15px 30px;
+  background-color: white;
+  background-color: #000;
+  color: white;
+  float: left;
+  clear: both;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.2); }
+  section:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -4px;
+    top: 4px;
+    z-index: -1;
+    border-radius: inherit;
+    opacity: 0.5; }
+  section.varient-1 {
+    background-color: #d34eb4; }
+    section.varient-1:after {
+      background-color: #be309d; }
+  section.varient-2 {
+    background-color: #be3081; }
+    section.varient-2:after {
+      background-color: #962566; }
+  section.varient-3 {
+    background-color: #ad6397; }
+    section.varient-3:after {
+      background-color: #914c7c; }
+  section.varient-4 {
+    background-color: #7e5f79; }
+    section.varient-4:after {
+      background-color: #61495d; }
+  section + div {
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin: 0 0 15px;
+    background-color: #e6e6e6;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    section + div span {
+      font-size: 5vw;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #e6e6e6;
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: relative; }
+      @media screen and (min-width: 992px) {
+        section + div span {
+          font-size: 36px; } }
+      section + div span:before, section + div span:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-transition-duration: 0.75s;
+        -o-transition-duration: 0.75s;
+        transition-duration: 0.75s;
+        opacity: 0; }
+      section + div span.hover-1:after {
+        left: 0;
+        background-color: #d34eb4; }
+      section + div span.hover-2:after {
+        right: 0;
+        background-color: #be3081; }
+      section + div span.hover-3:before {
+        left: calc(50%);
+        background-color: #ad6397; }
+      section + div span.hover-3:after {
+        right: calc(50%);
+        background-color: #ad6397; }
+      section + div span.hover-4:before {
+        left: 0;
+        background-color: #7e5f79; }
+      section + div span.hover-4:after {
+        right: 0;
+        background-color: #7e5f79; }
+    section + div:hover {
+      cursor: pointer; }
+      section + div:hover span:before, section + div:hover span:after {
+        width: 100%;
+        opacity: 1; }
+      section + div:hover span.hover-3:before, section + div:hover span.hover-3:after, section + div:hover span.hover-4:before, section + div:hover span.hover-4:after {
+        width: 50%; }

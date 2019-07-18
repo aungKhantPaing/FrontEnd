@@ -1,0 +1,28 @@
+/* Footer */
+.footer {
+    background: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .footer-text {
+        h3 {
+            font-weight: bold;
+            color: white;
+        }
+
+        p {
+            line-height: 2em;
+            color: #555;
+        }
+    }
+
+
+
+    a {
+        color: #555;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

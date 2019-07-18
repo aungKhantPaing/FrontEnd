@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="animate.css">
+
+    
+    <title>Playground</title>
+    
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .main {
+            background-image: url('lib/faded-album-photo.jpg');
+            background-color: green !important;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+        }
+        
+        .title {
+            font-family: 'Courier New', Courier, monospace;
+            color: gainsboro;
+            font-size: 4em;
+        }
+        
+        #btn-lyric {
+            display: none;
+        }
+        
+        .modal-content {
+            background-color: black;
+        }
+        </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            
+            <h1 class="title animated fadeIn slower">Faded</h1>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Faded</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p id="lyric">
+                                You were the shadow to my light<br>
+                                Did you feel us<br>
+                                Another start<br>
+                                You fade away<br>
+                                Afraid our aim is out of sight<br>
+                                Wanna see us<br>
+                                Alive<br>
+                                Where are you now<br>
+                                Where are you now<br>
+                                Where are you now<br>
+                                Was it all in my fantasy<br>
+                                Where are you now<br>
+                                Were you only imaginary<br>
+                                Where are you now<br>
+                                Atlantis<br>
+                                Under the sea<br>
+                                Under the sea<br>
+                                Where are you now<br>
+                                Another dream<br>
+                                The monsters running wild inside of me<br>
+                                I'm faded<br>
+                                I'm faded<br>
+                                So lost<br>
+                                I'm faded<br>
+                                I'm faded<br>
+                                So lost<br>
+                                I'm faded<br>
+                                These shallow waters, never met<br>
+                                What I needed<br>
+                                I'm letting go<br>
+                                A deeper dive<br>
+                                Eternal silence of the sea<br>
+                                I'm breathing<br>
+                                Alive<br>
+                                Where are you now<br>
+                                Where are you now<br>
+                                Under the bright
+                                But faded lights<br>
+                                You set my heart on fire<br>
+                                Where are you now<br>
+                                Where are you now<br>
+                                Where are you now<br>
+                                Atlantis<br>
+                                Under the sea<br>
+                                Under the sea<br>
+                                Where are you now<br>
+                                Another dream<br>
+                                The monsters running wild inside of me<br>
+                                I'm faded<br>
+                                I'm faded<br>
+                                So lost<br>
+                                I'm faded<br>
+                                I'm faded<br>
+                                So lost<br>
+                                I'm faded<br>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a tabindex="0" class="btn btn-default btn-clipboard" id="btn-clipboard" role="button" data-clipboard-target="#lyric" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="Copied to Clipboard!">Copy to Clipboard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Button trigger modal -->
+            <button type="button" data-toggle="modal" data-target="#myModal" id="btn-lyric">
+                Launch lyric
+            </button>
+            <audio src="lib/faded.mp3" id="music"></audio>
+        </div>
+    </div>
+</body>
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="controls.js"></script>
+    <script src="bootstrap/js/clipboard.js-master/dist/clipboard.min.js"></script>
+    <script src="bootstrap/js/wow.min.js"></script>
+</html>

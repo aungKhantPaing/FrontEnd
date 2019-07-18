@@ -1,0 +1,31 @@
+$primary-color: #29ca8e;
+
+html, body, :hover {
+    font-family: 'Open Sans', sans-serif;
+
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+
+    p {
+        color: #777;
+        line-height: 26px;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+@import 'partials/navigation';
+@import 'partials/home';
+@import 'partials/features';
+@import 'partials/about';
+@import 'partials/priceing';
+@import 'partials/contact';
+@import 'partials/footer';
+
+// Helper
+.w100 {
+    width: 100%;
+}

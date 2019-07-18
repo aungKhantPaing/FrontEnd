@@ -1,0 +1,31 @@
+.nav {
+    background-color: $aiesec-blue;
+
+    .logo {
+        padding: 0;
+        margin: 12px 0px;
+    
+        img {
+            width: 180px;
+            line-height: 60px;
+        }
+    }
+    
+    .nav-links {
+        margin: 12px 0px;
+        text-align: right;
+    
+        ul {
+            margin-bottom: 0;
+            a {
+                color: white;
+            }
+
+            li:nth-child(3){
+                a {
+                    color: black !important;
+                }
+            }
+        }
+    }
+}

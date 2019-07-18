@@ -1,0 +1,246 @@
+$sea-blue: #005d8f;
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    .navbar-section {
+        margin: 10px 0px;
+    }
+
+    .img-logo {
+        width: 220px;
+    }
+
+    .navbar-links {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .btn-navbar {
+            font-size: 10px;
+            font-weight: bold;
+            color: #005d8f;
+            border-color: #005d8f;
+            border-radius: 0;
+            padding: 15px 20px;
+            margin-right: 5px;
+        }
+    }
+
+
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url('lib/img/profile.jpg');
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+    h1 {
+        font-size: 5em;
+    }
+
+    .hero-footer {
+        position: absolute;
+        bottom: 0;
+        width: 99.6972%;
+
+        background-color: rgba(0,0,0,.5);
+        padding: 10px;
+
+        .btn-hero-footer {
+            color: #c5a30c;
+            font-size: 20px;
+        }
+
+        .border-right {
+            border-right: solid 2px white;
+        }
+    }
+}
+
+.local-info {
+    padding: 80px 0px;
+    background-image: url("lib/img/home-bg-top.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .content-center {
+        max-width: 54rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.fishing-info, .diving-info {
+    .info-table {
+        margin-top: 0;
+        .table-title {
+            margin-top: 0;
+            border-top: none;
+        }
+        
+        .table-row {
+            padding: 20px 0px;
+            
+            .data {
+                padding-top: 10px;
+                padding-bottom: 10px; 
+            }
+        }
+    }
+}
+
+.diving-info {
+    background: url('lib/img/dive.jpg') no-repeat top transparent;
+    background-size: cover;
+    padding-top: 85%;
+    border-bottom: solid 2px #005d8f;
+
+    color: white;
+    header h2{
+        color: white;
+    }
+}
+
+.info-table {
+    margin: 20px 0px;
+    .table-title {
+        padding: 20px 0px;
+        margin-bottom: 0;
+        border-top: solid 1px grey;
+        border-bottom: solid 1px grey;
+    }
+    
+    .table-row {
+        padding: 10px 0px;
+        border-bottom: solid 1px grey;
+        text-align: left;
+
+        .lbl-icon {
+            height: 30px;
+        }
+        
+        .data, .data-bg-yellow, .data-bg-blue {
+            font-size: 12px;
+        }
+        
+        .data {
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        
+        .data-bg-yellow {
+            color: white;
+            border-radius: 20px;
+            background-color: #c5a30c;
+        }
+        
+        .data-bg-blue {
+            color: white;
+            border-radius: 20px;
+            background-color: #0eb3d6;
+        }
+        
+        .data-number {
+            padding: 15px 20px;
+            font-size: 20px;
+            border-radius: 100px;
+            color: white;
+            background-color: #0eb3d6;
+        }
+        
+        .data-icon {
+            height: 3.4em;
+        }
+    }
+}
+
+.article {
+    h2 {
+        font-family: 'Josefin Slab', serif;
+        font-weight: bold;
+        color: $sea-blue;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+
+    .btn-article {
+        background-color: #f7a800;
+        color: white;
+        padding: 20px 40px;
+        transition: 0.45s cubic-bezier(.645,.045,.355,1);
+
+        &:hover {
+            background-color: #0eb3d6;
+        }
+    }
+}
+
+.footer {
+    padding-bottom: 50px;
+    background-color: #005d8f;
+    .footer-logo {
+        background: url('lib/img/bottle.jpg') no-repeat bottom transparent;
+        padding: 185px 0px;
+        text-align: center;
+        img {
+            height: 15rem;
+        }
+    }
+
+    form {
+        padding-bottom: 50px;
+        .lbl {
+            color: white;
+            width: 10em;
+            vertical-align: middle;
+        }
+
+        .input-email {
+            padding: 20px;
+            padding-right: 200px;
+            border-radius: 4px;
+            border: 0;
+        }
+
+        .btn-submit {
+            color: white;
+            font-weight: bold;
+            letter-spacing: 3px;
+            background-color: black !important;
+            padding: 20px 40px;
+            border: 0;
+        }
+
+        .contact {
+            padding-left: 20px;
+            color: white;
+
+            .contact-icon {
+                height: 30px;
+            }
+        }
+    }
+
+    .credit {
+        color: white;
+        word-spacing: 1em;
+    }
+    
+}

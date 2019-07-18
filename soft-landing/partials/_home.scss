@@ -1,0 +1,53 @@
+.home {
+    background-image: url('images/home-bg.jpg');
+    background-size: cover;
+    padding: 250px 0;
+
+    text-align: center;
+
+    .home-group {
+
+        h3 {
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: white;
+        }
+    
+        h1 {
+            padding: 0px 20px;
+            line-height: 1.5em;
+            color: white;
+        }
+    
+        .search-box {
+            padding: 20px 70px;
+    
+            .search-box-input {
+                right: -20px;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+    
+                height: 50px;
+            }
+            .btn-search-box {
+                left: -20px;
+                border: $primary-color;
+                border-radius: 50px;
+    
+                height: 50px;
+                background-color: $primary-color;
+                color: white;
+    
+                &:hover {
+                    border: #555;
+                    background: #555;
+                }
+    
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
